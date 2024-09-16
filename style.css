@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(204, 181, 181, 0.497);
+
+}
+nav{
+    background-color:rgba(0, 0, 255, 0.575);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:70px;
+    padding-left: 20px;
+    min-height: 70px;
+
+    
+}
+
+nav>h3{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+
+}
+.logo{
+    width: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+nav>ul>li{
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+nav>ul{
+    display: flex;
+    gap:40px;
+}
+
+.logo>img{
+    width:100%;
+}
+section{
+    display:flex;
+}
+section>.Left{
+    width:15%;
+    height: 100vh;
+    background-color:rgba(0, 0, 255, 0.575);
+}
+
+section>.Left>ul>li{
+    list-style: none;
+    padding-left: 10px;
+
+    
+}
+section>.Left>ul{
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+    margin-top: 10px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Left>ul>.left_home{
+    background-color: rgba(128, 128, 128, 0.83);
+}
+
+section>.Left>ul>li:hover{
+    background-color: rgba(128, 128, 128, 0.83);
+    cursor: pointer;
+
+}
+footer{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.652);
+    width: 100%;
+    display: flex;
+    min-height:40px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:40px;
+    padding-right: 40px;
+    font-size: x-small;
+    position: absolute;
+}
+footer>.footer_icon>ul{
+    display: flex;
+    gap: 30px;
+}
+footer>.footer_icon>ul>li{
+    list-style: none;
+}
+.Copyright{
+    cursor: pointer;
+
+}
+.footer_icon{
+    cursor:pointer;`
+}
+section>.Right{
+    width: 60%;
+    height: 100vh;
+    background-color:whitesmoke;
+
+}
+h1{
+    color: black;
+    margin-left:100px;
+    font-weight:100;
+}
+
+.nature>img{
+    width: 100%;
+}
+
+.container, .card_topSection, .card_middleSection, .card_lastSection {
+    border: 1px solid navy;
+}
+
+.top_image{
+    width: 30px;
+    height: 30px;
+}
+.top_image>img{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
